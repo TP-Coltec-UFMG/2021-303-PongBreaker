@@ -9,6 +9,8 @@ TagManager:
   - PostProcessT
   - PostProcessD
   - PostProcessP
+  - Ball
+  - Brick
   layers:
   - Default
   - TransparentFX
