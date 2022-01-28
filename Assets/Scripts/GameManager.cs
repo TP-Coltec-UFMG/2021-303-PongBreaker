@@ -13,6 +13,16 @@ public class GameManager : MonoBehaviour
 
     public GameObject completeLevelUI;
 
+    private void Update()
+    {
+        if (GameObject.FindGameObjectsWithTag("Brick").Length == 0)
+        {
+            CompleteLevel();
+            FindObjectOfType<ballMovement>().GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            FindObjectOfType<ballMovement>().GetComponent<Rigidbody2D>().angularVelocity = 0f; ;
+        }
+    }
+
     public void WinLevel()
     {
         if (PlayerPrefs.GetInt("levelsCompleted") < nextLevelIndex)

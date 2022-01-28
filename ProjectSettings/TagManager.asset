@@ -11,6 +11,11 @@ TagManager:
   - PostProcessP
   - Ball
   - Brick
+  - ExplosiveBrick
+  - ShieldBrick
+  - MetalBrick
+  - YellowBrick
+  - Goal
   layers:
   - Default
   - TransparentFX

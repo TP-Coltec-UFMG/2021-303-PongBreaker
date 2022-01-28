@@ -1,20 +1,18 @@
+using System.Collections;
 using UnityEngine;
 
 public class BreakBrick : MonoBehaviour
 {
     public int health;
 
-    private void OnTriggerEnter2D(Collider2D col)
+    public IEnumerator Break()
     {
-        if (col.gameObject.name == "Ball")
-        {
-            health--;
-        }
+        GetComponentInChildren<ParticleSystem>().Play();
+        GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<BoxCollider2D>().enabled = false;
+        GetComponent<AudioSource>().Play();
 
-        if (health <= 0)
-        {
-            Debug.Log("Hit");
-            this.enabled = false;
-        }
+        yield return new WaitForSeconds(GetComponentInChildren<ParticleSystem>().main.startLifetime.constantMax);
+        Destroy(gameObject);
     }
 }
