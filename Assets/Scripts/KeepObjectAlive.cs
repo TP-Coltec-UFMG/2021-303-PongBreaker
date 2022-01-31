@@ -6,6 +6,13 @@ public class KeepObjectAlive : MonoBehaviour
 {
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if (GameObject.FindGameObjectsWithTag("Music").Length <= 1)
+        {
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }

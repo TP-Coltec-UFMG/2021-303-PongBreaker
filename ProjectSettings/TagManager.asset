@@ -16,6 +16,8 @@ TagManager:
   - MetalBrick
   - YellowBrick
   - Goal
+  - Background
+  - Music
   layers:
   - Default
   - TransparentFX

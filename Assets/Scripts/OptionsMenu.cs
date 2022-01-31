@@ -59,6 +59,10 @@ public class OptionsMenu : MonoBehaviour
         PlayerPrefs.SetFloat("music", musicVolume);
     }
 
+    public void GoToMainMenu ()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     void Update()
     {   
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -69,7 +73,7 @@ public class OptionsMenu : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("MainMenu");
+                GoToMainMenu();
             }
         }
 

@@ -413,13 +413,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8290503336038783680, guid: 9a65369da240cf2458facd465499256c, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a65369da240cf2458facd465499256c, type: 3}
---- !u!1 &326603536 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 574411261280498153, guid: 9a65369da240cf2458facd465499256c, type: 3}
-  m_PrefabInstance: {fileID: 326603535}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &366832694
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +515,7 @@ RectTransform:
   - {fileID: 1822877201}
   - {fileID: 1112645431}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -536,10 +535,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quitGameMenuUI: {fileID: 1112645430}
-  FiltroP: {fileID: 1574262312}
-  FiltroD: {fileID: 1438559187}
-  FiltroT: {fileID: 1185205230}
-  FiltroAC: {fileID: 326603536}
+  FiltroP: {fileID: 1739803337}
+  FiltroD: {fileID: 854354490}
+  FiltroT: {fileID: 1281158506}
+  FiltroAC: {fileID: 1953587366}
 --- !u!1 &472534605
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,7 +764,7 @@ GameObject:
   - component: {fileID: 489274229}
   m_Layer: 0
   m_Name: BackgroundMusic
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -984,7 +983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7849310815982778888, guid: 038bb05d2d96b8a49bf4cc39dfaec49f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7849310815982778888, guid: 038bb05d2d96b8a49bf4cc39dfaec49f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1096,7 +1095,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &802668116
 GameObject:
@@ -1174,6 +1173,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802668116}
   m_CullTransparentMesh: 1
+--- !u!1 &854354490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2733054352038291995, guid: a57783c28203ce44bbdef159f956cf84, type: 3}
+  m_PrefabInstance: {fileID: 1438559186}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &989548446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,6 +1453,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2000080806884858693, guid: 133df32b474629f429f232a9accbff81, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7310472204307813141, guid: 133df32b474629f429f232a9accbff81, type: 3}
       propertyPath: m_Name
       value: DaltonismoT
@@ -1507,9 +1515,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 133df32b474629f429f232a9accbff81, type: 3}
---- !u!1 &1185205230 stripped
+--- !u!1 &1281158506 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 7310472204307813141, guid: 133df32b474629f429f232a9accbff81, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7259693962598136691, guid: 133df32b474629f429f232a9accbff81, type: 3}
   m_PrefabInstance: {fileID: 1185205229}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1334276784
@@ -1721,13 +1729,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6990286820362847980, guid: a57783c28203ce44bbdef159f956cf84, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a57783c28203ce44bbdef159f956cf84, type: 3}
---- !u!1 &1438559187 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6437940258776771170, guid: a57783c28203ce44bbdef159f956cf84, type: 3}
-  m_PrefabInstance: {fileID: 1438559186}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1459471878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,11 +2025,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d798282602c42814a98e21fb38bc43c8, type: 3}
---- !u!1 &1574262312 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3734631035342655830, guid: d798282602c42814a98e21fb38bc43c8, type: 3}
-  m_PrefabInstance: {fileID: 1574262311}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1672846775
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,6 +2387,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717332912}
   m_CullTransparentMesh: 1
+--- !u!1 &1739803337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8309717446000163226, guid: d798282602c42814a98e21fb38bc43c8, type: 3}
+  m_PrefabInstance: {fileID: 1574262311}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1822877200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,6 +2429,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1953587366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9000904623793239595, guid: 9a65369da240cf2458facd465499256c, type: 3}
+  m_PrefabInstance: {fileID: 326603535}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1981501805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,7 +2592,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2020918691
 MonoBehaviour:
@@ -2664,6 +2676,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
@@ -2744,7 +2757,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: BRICK  BREAKER
+  m_Text: PONG  BREAKER
 --- !u!222 &2141424524
 CanvasRenderer:
   m_ObjectHideFlags: 0
